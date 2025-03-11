@@ -29,21 +29,21 @@ const navConfig: navItem[] = [
 		dropdown: [
 			{
 				text: "Installation",
-				link: "/services/exterior-painting",
+				link: "/services/installation",
 			},
 			{
 				text: "Maintenance",
-				link: "/services/interior-painting",
+				link: "/services/maintenance",
 			},
 			{
 				text: "Repair",
-				link: "/services/deck-and-fence-staining",
+				link: "/services/repair",
 			},
 		],
 	},
 	{
 		text: "FAQ",
-		link: "#faq1",
+		link: "/#faq1",
 	},
 ];
 

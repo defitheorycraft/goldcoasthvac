@@ -3,46 +3,34 @@ import { type FaqItem } from "../types/configDataTypes";
 // replace this data with whatever you want in your FAQ section
 export const faqData: FaqItem[] = [
 	{
-		question: "Who are the themes for?",
-		answer: `These themes are for developers who want to have pre-created templates to use in their projects,
-    and have the hard stuff taken care of. Whether that is personal projects, a new SaaS business, a website for a client, etc.
-    They offer speed, customizability with swappable 
-    components, built-in SEO, and image optimization. Instead of spending hours figuring out 
-    how to do this yourself, you can leverage the themes to save weeks of time and effort. You can easily 
-    mix and match sections, update the copy, and change the color theme with just one line of code.`,
+		question: "How often should I schedule maintenance for my HVAC system?",
+		answer: `Most experts recommend scheduling maintenance at least once a year—typically in the spring f
+		or cooling systems and fall for heating systems—to ensure optimal performance and longevity.`,
 	},
 	{
-		question: "What all components are included?",
-		answer: `60+ components. Including 6 feature sections, 3 hero sections, 2 services sections, 2 testimonial sections, 
-    2 faq sections, 404, contact, legal, 2 blog indexes, blog post layout, and a cookie banner.`,
+		question: "What are the signs my HVAC system needs repair?",
+		answer: `Common signs include unusual noises, weak airflow, uneven temperatures, higher-than-normal energy bills, 
+		or the system frequently cycling on and off.`,
 	},
 	{
-		question: 'What do you mean by "free updates"?',
-		answer: `When you purchase any of our themes, you get lifetime updates for free. 
-      We regularly update our themes to ensure compatibility with the latest version of Astro, 
-      and to add new features or bug fixes.`,
+		question: 'How long does an HVAC system typically last?',
+		answer: `With proper maintenance, an HVAC system can last 10-15 years for air conditioners and heat pumps, 
+		and 15-20 years for furnaces, though this varies based on usage and care.`,
 	},
 	{
-		question: "Why Astro?",
-		answer: `Astro is an excellent framework for content-focused websites, with a great developer
-      experience. It also allows you to use any UI framework you want within it, such as React, Vue,
-      and Svelte. This means you can use any of your existing components, or any of the thousands of 
-      components available online. `,
+		question: "Can I install a new HVAC system myself, or should I hire a professional?",
+		answer: `HVAC installation requires specialized knowledge, tools, and permits, so it’s strongly recommended 
+		to hire a licensed professional to ensure safety and efficiency.`,
 	},
 	{
-		question: "Can I use a theme for multiple projects?",
-		answer: `Yes, you can use any of our themes for as many projects as you like.
-      You can even sell websites you create with them to your clients. As long as you
-      don't resell the theme itself, you're likely to go! See our
-      <a href="https://cosmicthemes.com/license/" target="_blank" rel="noopener noreferrer">License</a> 
-      page for more details.`,
+		question: "What size HVAC system do I need for my home?",
+		answer: `The right size depends on factors like square footage, insulation, and climate. A professional 
+		can perform a load calculation (often using Manual J) to determine the perfect fit.`,
 	},
 	{
-		question: "How do I download new versions of the themes?",
-		answer: `You can download any new versions of the themes by accessing
-      your lemonsqueezy library. When you first purchase the theme, I recommend 
-      creating a lemonsqueezy account at app.lemonsqueezy.com. Then you will have
-      access to any theme updates from that page.`,
+		question: "Why is my HVAC system running but not cooling/heating?",
+		answer: `This could be due to a clogged filter, low refrigerant, a broken thermostat, or a failing component 
+		like the compressor. A technician can diagnose and fix the issue.`,
 	},
 ];
 
